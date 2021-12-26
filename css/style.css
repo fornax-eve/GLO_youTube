@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 .header {
     padding-top: 20px;
@@ -9,6 +14,7 @@
     padding-right: 50px;
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .menu-button {
@@ -56,7 +62,7 @@
     background-color: transparent;
     border: none;
     outline: none;
-    width: 80%;
+    width: 100%;
 }
 
 .button-search {
@@ -81,6 +87,7 @@
 .icons-link {
     opacity: 0.24;
     text-decoration: none;
+    /*fill: black;*/
 }
 
 .icons-link:hover {
@@ -99,4 +106,60 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+.sidebar {
+    padding-left: 31px;
+}
+
+.nav-menu {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.nav-item {
+    margin-bottom: 28px;
+}
+
+.nav-link {
+    color: #898989;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.nav-link:hover .icon {
+    fill: red;
+}
+
+.nav-item .icon {
+    fill: #898989;
+}
+
+.nav-text {
+    margin-left: 13px;
+}
+
+.nav-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+.nav-img {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+.nav-settings {
+    margin-top: 108px;
+    margin-bottom: 40px;
 }
